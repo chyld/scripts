@@ -1,12 +1,25 @@
+require 'listen'
+
+directory = ARGV[0]
+exit if directory.nil?
 puts `clear`
-puts 'Watching haml files...'
+puts "Watching the #{directory} directory for HAML additions or modifications..."
 
-watch('(.*?\.)haml$') do |path|
-  cmd = "haml #{path[0]} #{path[1]}html"
-  puts cmd
+listener = Listen.to(directory) do |modified, added, removed|
+  (modified + added).each do |file|
 
-  begin
-    `#{cmd}`
-  rescue
+    if /haml$/.match(file)
+      cmd = "haml #{file} #{file.gsub(/haml$/, 'html')}"
+      puts "#{Time.now.strftime("%H:%M:%S")}: #{cmd}"
+
+      begin
+        `#{cmd}`
+      rescue
+      end
+    end
+
   end
 end
+
+listener.run
+sleep
