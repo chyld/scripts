@@ -1,7 +1,6 @@
 require 'listen'
 
-directory = ARGV[0]
-exit if directory.nil?
+directory = Dir.pwd
 puts `clear`
 puts "Watching the #{directory} directory for HAML additions or modifications..."
 
