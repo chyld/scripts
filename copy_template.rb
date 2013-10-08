@@ -1,7 +1,5 @@
 # encoding: utf-8
 
-require 'pry'
-
 print 'Name of Project: '
 
 project = gets.chomp
