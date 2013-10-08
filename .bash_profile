@@ -17,6 +17,7 @@ alias  c='clear'
 alias sass!='sass --watch scss:css'
 alias haml!='ruby ~/Code/Scripts/watch_haml.rb'
 alias prj='ruby ~/Code/Scripts/copy_template.rb'
+alias pss='python -m SimpleHTTPServer'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
