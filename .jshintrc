@@ -5,9 +5,9 @@
   "indent": 2,
   "quotmark": true,
   "undef": true,
-  "unused":true,
+  "unused": "vars",
   "strict": true,
   "trailing": true,
   "validthis": true,
-  "globals": {"$": false, "jQuery": false, "console": false, "Firebase": false}
+  "globals": {"$": false, "jQuery": false, "console": false, "Firebase": false, "_": false}
 }
