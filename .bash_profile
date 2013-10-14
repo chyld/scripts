@@ -20,6 +20,7 @@ alias prj='ruby ~/Code/Scripts/copy_template.rb'
 alias pss='python -m SimpleHTTPServer'
 alias rss='~/Code/Scripts/ruby_server.rb'
 alias fe='cd ~/Code/NSS-FrontEnd'
+alias deploy='ruby ~/Code/Scripts/deploy.rb'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
