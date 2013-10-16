@@ -9,5 +9,5 @@
   "strict": true,
   "trailing": true,
   "validthis": true,
-  "globals": {"$": false, "jQuery": false, "console": false, "Firebase": false, "_": false, "google": false}
+  "globals": {"$": false, "jQuery": false, "console": false, "Firebase": false, "_": false, "google": false, "db": false, "module": false, "test": false, "asyncTest": false, "expect": false, "deepEqual": false, "start": false}
 }
