@@ -1,0 +1,16 @@
+Packages:
+Sass
+JSHint Gutter
+
+{
+  "detect_indentation": false,
+  "font_face": "Source Code Pro Medium",
+  "font_size": 12,
+  "hot_exit": false,
+  "remember_open_files": false,
+  "save_on_focus_lost": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
+}
