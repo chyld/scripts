@@ -18,7 +18,9 @@ All Autocomplete
   "bold_folder_labels": true,
   "draw_indent_guides": true,
   "highlight_line": true,
+  "line_padding_top": 0,
   "line_padding_bottom": 1,
+  "caret_style": "phase",
   "ignored_packages":
   [
     "Vintage"
