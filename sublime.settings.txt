@@ -1,8 +1,10 @@
 Packages:
 Sass
 JSHint Gutter
+All Autocomplete
 
 {
+  "color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
   "detect_indentation": false,
   "font_face": "Source Code Pro Medium",
   "font_size": 12,
@@ -12,5 +14,13 @@ JSHint Gutter
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": false
+  "word_wrap": false,
+  "bold_folder_labels": true,
+  "draw_indent_guides": true,
+  "highlight_line": true,
+  "line_padding_bottom": 1,
+  "ignored_packages":
+  [
+    "Vintage"
+  ]
 }
