@@ -31,4 +31,5 @@ function branch
 
 export PATH=$PATH:/usr/local/bin/node-v0.10.21-linux-x64/bin
 
+eval `dircolors ~/.dircolors`
 PS1="$txtred\w$txtgrn\$(branch)$txtblk >$txtrst "
