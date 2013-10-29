@@ -9,7 +9,7 @@ pwd = `pwd`.chomp
 
 cmd0 = "cp -r #{source} #{pwd}/#{time}-#{project}"
 cmd1 = "cd #{pwd}/#{time}-#{project}"
-cmd2 = "rm -rf .git*"
+cmd2 = "rm -rf .git"
 
 cmd3 = "#{cmd0} && #{cmd1} && #{cmd2}"
 `#{cmd3}`
