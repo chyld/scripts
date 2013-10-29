@@ -3,7 +3,7 @@
 print 'Name of Project: '
 
 project = gets.chomp
-source = '~/Code/Projects/Foundation-FrontEnd-QUnit-Template'
+source = '~/Code/Projects/Express-Template'
 time = Time.now.strftime("%Y-%m-%d")
 pwd = `pwd`.chomp
 

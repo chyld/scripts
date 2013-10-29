@@ -1,7 +1,7 @@
 Packages:
 Sass
 Jade
-JSHint Gutter
+Less
 All Autocomplete
 
 {
