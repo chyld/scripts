@@ -30,6 +30,6 @@ function branch
   git status 2> /dev/null | ruby ~/Code/Scripts/branch.rb
 }
 
-export PATH=$PATH:/usr/local/bin/node-v0.10.21-linux-x64/bin:/usr/local/bin/mongodb-linux-x86_64-2.4.7/bin
+export PATH=$PATH:/usr/local/bin/node-v0.10.21-linux-x64/bin:/usr/local/bin/mongodb-linux-x86_64-2.4.7/bin:/usr/local/bin/redis-stable/src
 eval `dircolors ~/.dircolors`
 PS1="$txtred\w$txtgrn\$(branch)$txtblk >$txtrst "
