@@ -6,9 +6,9 @@
   "quotmark": true,
   "undef": true,
   "unused": "vars",
-  "strict": true,
+  "strict": false,
   "trailing": true,
   "validthis": true,
   "evil": true,
-  "globals": {"$": false, "jQuery": false, "console": false, "Firebase": false, "_": false, "google": false, "db": false, "module": false, "test": false, "asyncTest": false, "expect": false, "deepEqual": false, "start": false, "ok": false, "equal": false, "QUnit": false}
+  "globals": {"$": false, "jQuery": false, "console": false, "Firebase": false, "_": false, "google": false, "db": false, "module": false, "test": false, "asyncTest": false, "expect": false, "deepEqual": false, "start": false, "ok": false, "equal": false, "QUnit": false, "require": false, "exports": false}
 }
