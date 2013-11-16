@@ -1,9 +1,16 @@
 # encoding: utf-8
 
 print 'Name of Project: '
-
 project = gets.chomp
-source = '~/Code/Projects/Express-Template'
+
+print '(1) Foundation, (2) Pure + Angular: '
+option = gets.chomp.to_i
+
+source = case option
+   when 1 then '~/Code/Projects/Express-Template'
+   when 2 then '~/Code/Projects/Node-Express-Pure-Angular-Mongo'
+end
+
 time = Time.now.strftime("%Y-%m-%d")
 pwd = `pwd`.chomp
 
